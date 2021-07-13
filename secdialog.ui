@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>623</width>
+    <height>662</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,17 +16,19 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>20</y>
-     <width>141</width>
+     <x>-10</x>
+     <y>10</y>
+     <width>641</width>
      <height>21</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 16pt &quot;8514oem&quot;;</string>
+    <string notr="true">font: 16pt &quot;8514oem&quot;;
+background-color: black;
+color: white;</string>
    </property>
    <property name="text">
-    <string>Ashwini Desai </string>
+    <string>                          ASHWINI DESAI</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
@@ -34,36 +36,38 @@
     <rect>
      <x>0</x>
      <y>40</y>
-     <width>401</width>
+     <width>621</width>
      <height>20</height>
     </rect>
    </property>
    <property name="text">
-    <string>9769051801 || avddesai@yahoo.com || https://github.com/avddesai</string>
+    <string>    9769051801 || avddesai@yahoo.com || https://github.com/avddesai || Kandivali East, Mumbai 400101</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>150</x>
-     <y>70</y>
-     <width>55</width>
+     <x>10</x>
+     <y>80</y>
+     <width>91</width>
      <height>16</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+    <string notr="true">font-size: 15px;
+font-weight: bold;
+
 </string>
    </property>
    <property name="text">
-    <string>Objective</string>
+    <string>OBJECTIVE</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>80</x>
-     <y>80</y>
+     <x>10</x>
+     <y>100</y>
      <width>331</width>
      <height>20</height>
     </rect>
@@ -75,14 +79,102 @@
   <widget class="Line" name="line">
    <property name="geometry">
     <rect>
-     <x>-20</x>
+     <x>-10</x>
      <y>50</y>
-     <width>431</width>
+     <width>641</width>
      <height>31</height>
     </rect>
    </property>
    <property name="orientation">
     <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>90</y>
+     <width>721</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 7pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_3">
+   <property name="geometry">
+    <rect>
+     <x>-50</x>
+     <y>150</y>
+     <width>751</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>140</y>
+     <width>55</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 15px;
+font-weight: bold;</string>
+   </property>
+   <property name="text">
+    <string>SKILLS</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>170</y>
+     <width>55</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 8pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>- C/C++</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>190</y>
+     <width>55</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>- Python</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>210</y>
+     <width>55</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>- SQL</string>
    </property>
   </widget>
  </widget>
